@@ -22,15 +22,11 @@ Darker grey #1f2022 */
 html, 
 body {
     font-size: 125%;
+    /* 125% = 20px = 1rem */
     /* This defines what 1rem is
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%  */
 
-    /* 125% = 20px; */
 }
-
-/* ----------------------------------------------- */
-/* BASIC SETUP */
-/* ----------------------------------------------- */
 
 .wrapper {
     max-width: 51.2rem;
@@ -40,7 +36,6 @@ body {
 /* HEADER/HERO */
 header {
     background: linear-gradient( to bottom right, #f5c8cf, #fcdde2 );
-    /* background: url("../images/header-group-appliances.png"); */
     height: 100vh;
     position: relative;
     padding-top: 5rem;
@@ -67,7 +62,7 @@ header {
 
 .header-nav li {
     display: inline-block;
-    padding-bottom: 20px; /* 2rem */
+    padding-bottom: 2rem; /* 2rem */
     font-size: 1rem;
 }
 
@@ -114,7 +109,7 @@ header {
     font-size: 1rem;
     display: block;
     text-align: center;
-    padding: 5px;3
+    padding: .4rem;
 }
 
 /* NEW APPLIANCES SECTION */
@@ -128,23 +123,19 @@ header {
     font-family: 'Emblema One', cursive;
     text-transform: uppercase;
     font-size: 1.6rem;
+    letter-spacing: .1rem;
     text-align: center;
     padding: 3rem 3rem 2rem 3rem;
 }
 
 .appliances-images img {
     float: left;
-    width: calc(33.33% - 20px);
-    /* padding: .7rem; */
+    width: calc(33.33% - 1rem);
 } 
 
 .appliances-images img:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 1.5rem;
 }
-
-/* .appliances-images img:first-child {
-    padding-right: .7rem;
-} */
 
 img {
     width: 100%;
@@ -152,7 +143,6 @@ img {
 }
 
 /* BEST APPLIANCES SECTION */
-
 .best-appliances {
     background-color: #fcdde2;
     padding-bottom: 2.5rem;
@@ -168,7 +158,7 @@ img {
 .best-appliances-content {
     float: left;
     width: 70%;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .best-appliances-content h2 {
@@ -176,14 +166,14 @@ img {
     font-family: 'Emblema One', cursive;
     font-size: 1.6rem;
     text-transform: uppercase;
-    /* letter-spacing: .1rem; */
+    letter-spacing: .1rem;
     padding-bottom: .5rem;
 }
 
 .best-appliances-content p {
     color: #1f2022;
     font-family: 'Barlow', sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.2rem;
 }
 
@@ -227,7 +217,7 @@ img {
 .smoothie-content p, .new-home-content p {
     color: #1f2022;
     font-family: 'Barlow', sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     width: 450px;
 }
@@ -251,7 +241,7 @@ img {
 /* ICON SECTION */
 
 .extra-nav {
-    background-color: #fcdde2;
+    background-color: #f5c8cf;
 }
 
 .extra-nav ul li {
@@ -287,7 +277,7 @@ footer {
 
 .newsletter {
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 2rem;
 }
 
@@ -315,7 +305,7 @@ footer {
 .newsletter h3, .contact h3, .footer-nav li {
     color: #1d81cc;
     font-family: 'Emblema One', cursive;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     padding-bottom: .5rem;
@@ -324,13 +314,13 @@ footer {
 .newsletter p, .contact p {
     color: #1f2022;
     font-family: 'Barlow', sans-serif;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.2rem;
 }
 
 .contact {
     float: left;
-    width: 30%;
+    width: 35%;
     padding: 0 2rem;
     padding: 2rem;
 }
@@ -356,7 +346,7 @@ footer {
     color: white;
     font-family: 'Barlow', sans-serif;
     text-align: center;
-    font-size: .8rem;
+    font-size: 1rem;
     padding: .5rem;
     font-weight: lighter;
 }

@@ -1,0 +1,113 @@
+@media (max-width: 1090px) {
+    .extra-nav ul li {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: 1060px) { 
+    html, body {
+        font-size: 100%;
+        /* 125% = 20px = 1rem */
+        /* This defines what 1rem is
+        font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%  */
+    }
+
+    .wrapper {
+        max-width: 62.5rem;
+    }
+
+    .best-appliances-content p {
+        line-height: 1.9rem;
+    }
+
+    .smoothie-content h2 {
+        width: 200px;
+    }
+
+    .new-home-content {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .wrapper {
+        max-width: 52.5rem;
+    }
+
+    .best-appliances-img img {
+        float: none;
+        width: 90%;
+        padding: 1rem 0;
+    }
+    
+    .best-appliances-content {
+        float: none;
+        width: 70%;
+        padding: 1rem;
+    }
+
+    .best-appliances-content, .best-appliances-content h2, .best-appliances-content p, .best-appliances-content button {
+        text-align: center;
+    }
+
+    .new-home, .smoothies{
+        background-color: #fcdde2;
+    }
+    
+    .smoothie-content, .new-home-content {
+        float: none;
+        display: block;
+        width: 90%;
+        margin: auto;
+        padding: 4rem;
+    }
+
+    .new-home-content, .new-home-title, .new-home-summary {
+        padding-left: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+    .smoothie-content, .smoothies-title, .smoothies-summary {
+        padding-left: 0;
+        text-align: center;
+        margin: auto;
+    }
+
+    .smoothies-title {
+        width: 500px;
+    }
+
+
+    .smoothie-img-container, .new-home-img-container {
+        float: none;
+        display: block;
+        width: auto;
+        padding: 5rem auto;
+        margin: auto;
+    }
+
+    .smoothies-img, .new-home-img {
+        width: 500px;
+        margin: auto;
+        width: auto;
+    }
+
+    .smoothie-content {
+        position: relative;
+    }
+
+    .smoothies-img-container {
+        position: absolute;
+    }
+
+    .smoothie-content button, .new-home-content button {
+        color: white;
+        font-family: 'Emblema One', cursive;
+        text-transform: uppercase;
+        border: .1rem solid #042259;
+        background-color: #042259;
+        padding: .5rem;
+        margin-top: .7rem;
+    }
+}
